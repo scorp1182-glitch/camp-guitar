@@ -167,8 +167,8 @@ export function Player({ songId, onBack }: Props) {
   const progress = Math.min(100, (currentBeat / totalBeats) * 100);
 
   return (
-    <div className="h-[100dvh] max-h-[100dvh] bg-slate-950 text-white flex flex-col overflow-hidden">
-
+    <div className="min-h-[100dvh] bg-slate-950 text-white flex flex-col">
+  
       {/* Top ad — compact */}
       <AdBanner position="top" />
 
